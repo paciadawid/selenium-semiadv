@@ -1,7 +1,7 @@
 import unittest
 
-from pages.login import LoginPage
-from pages.products import ProductsPage
+from ecomerce.pages.login import LoginPage
+from ecomerce.pages.products import ProductsPage
 from utils.helpers import create_driver
 
 

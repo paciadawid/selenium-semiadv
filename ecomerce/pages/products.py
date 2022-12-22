@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC  # noqa
 from selenium.webdriver.support.wait import WebDriverWait
 
-from pages.base import BasePage
+from ecomerce.pages.base import BasePage
 
 
 class ProductsPage(BasePage):
@@ -17,7 +17,7 @@ class ProductsPage(BasePage):
     add_to_cart_button_selector = (By.CLASS_NAME, "add-to-cart")
     overlay_add_to_cart_button_selector = (By.CSS_SELECTOR, ".overlay-content .add-to-cart")
     continue_shopping_button_selector = (By.CLASS_NAME, "btn-success")
-    view_product_button_selector = (By.CLASS_NAME, "fa-plus-square")
+    view_product_button_selector = (By.CSS_SELECTOR, ".choose a")
     quantity_field_selector = (By.ID, "quantity")
     add_to_cart_product_details_selector = (By.CLASS_NAME, "cart")
 

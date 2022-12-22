@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 
-from pages.base import BasePage
+from ecomerce.pages.base import BasePage
 
 
 class CheckoutPage(BasePage):

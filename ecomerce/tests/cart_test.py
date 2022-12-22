@@ -1,9 +1,9 @@
 import unittest
 
-from pages.cart import CartPage
-from pages.checkout import CheckoutPage
-from pages.login import LoginPage
-from pages.products import ProductsPage
+from ecomerce.pages.cart import CartPage
+from ecomerce.pages.checkout import CheckoutPage
+from ecomerce.pages.login import LoginPage
+from ecomerce.pages.products import ProductsPage
 from utils.config import *
 from utils.helpers import create_driver
 

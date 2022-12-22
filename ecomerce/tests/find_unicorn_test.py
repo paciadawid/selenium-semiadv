@@ -1,4 +1,4 @@
-from pages.products import ProductsPage
+from ecomerce.pages.products import ProductsPage
 import unittest
 
 from selenium import webdriver

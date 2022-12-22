@@ -1,9 +1,9 @@
 from selenium.webdriver.common.by import By
 
-from pages.base import BasePage
+from ecomerce.pages.base import BasePage
 
 from selenium.webdriver.support import expected_conditions as EC  # noqa
-from selenium.webdriver.support.wait import WebDriverWait
+
 
 class LoginPage(BasePage):
     login_tab_selector = (By.XPATH, "//a[@href='/login']")
